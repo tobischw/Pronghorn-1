@@ -3,15 +3,11 @@ Pronghorn  [![Powered by CloudBees](https://www.cloudbees.com/sites/default/file
 
 Staged event driven single machine embedded micro-framework.
 
-* Garbage Free (core runtime)
-* Lock Free
-* Block Free
+* **Garbage free message passing** design eliminates garbage collector stalls providing predictable data rates.  
+* **Lock free non-blocking message passing** enables cores to make continuous progress at all times.  
+* **Staged pipeline scheduler** enables optimization of the workload across cores. 
 * Small memory footprint
 * Smart thread scheduling
-
-**Garbage free message passing** design eliminates garbage collector stalls providing predictable data rates.  
-**Lock free non-blocking message passing** enables cores to make continuous progress at all times.  
-**Staged pipeline scheduler** enables optimization of the workload across cores. 
 
 ## Documentation
 Please refer to the [wiki](https://github.com/oci-pronghorn/Pronghorn/wiki) for documentation, how to get started, and examples.
