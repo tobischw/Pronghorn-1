@@ -77,7 +77,7 @@ Below is a recorded live demo of an application written using Pronghorn that qui
 	Ultra-small attack surface   
 	Scales well in docker and cloud deployments   
 	Targests absolute minimum resources consumed   
-
+	
 ## Usage
 
   To use this in your maven project add the following dependency.
@@ -101,9 +101,7 @@ Below is a recorded live demo of an application written using Pronghorn that qui
       <name>Active Repo for PronghornPipes</name>
       <url>http://repository-pronghorn.forge.cloudbees.com/snapshot/</url>
       <layout>default</layout>
-    </repository>
-        
-        
+    </repository>	
 
 ------------------------------------------
 
