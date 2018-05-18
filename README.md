@@ -84,7 +84,7 @@ Below is a recorded live demo of an application written using Pronghorn that qui
 	
 ## Usage
 
-  To use this in your maven project add the following dependency.
+  To use this in your Maven project, add the following dependency:
 
     <dependency>
       <groupId>com.ociweb</groupId>
@@ -92,7 +92,7 @@ Below is a recorded live demo of an application written using Pronghorn that qui
       <version>0.0.10-SNAPSHOT</version>
     </dependency> 
    
-  Also add this public repository to your pom or settings.
+  Also add this public repository to your pom or settings:
 
     <repository>
       <releases>
