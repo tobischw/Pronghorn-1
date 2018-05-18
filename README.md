@@ -10,7 +10,7 @@ Staged event driven single machine embedded micro-framework.
 * Smart thread scheduling
 
 ## Documentation
-Please refer to the [wiki](https://github.com/oci-pronghorn/Pronghorn/wiki) for documentation, how to get started, and examples.
+Please refer to the [wiki](../wiki) for documentation, how to get started, and examples.
 
 ## Demo
 Below is a recorded live demo of an application written using Pronghorn that quickly encodes and decodes JPG to raster (such as BMP) and vice versa. The project can be viewed [here](https://github.com/oci-pronghorn/JPG-Raster).
