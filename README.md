@@ -86,27 +86,30 @@ Below is a recorded live demo of an application written using Pronghorn that qui
 
   To use this in your Maven project, add the following dependency:
 
-    <dependency>
-      <groupId>com.ociweb</groupId>
-      <artifactId>Pronghorn</artifactId>
-      <version>0.0.10-SNAPSHOT</version>
-    </dependency> 
-   
+```xml
+<dependency>
+	<groupId>com.ociweb</groupId>
+	<artifactId>Pronghorn</artifactId>
+	<version>0.0.10-SNAPSHOT</version>
+</dependency> 
+```
+
   Also add this public repository to your pom or settings:
 
-    <repository>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <id>repository-pronghorn.forge.cloudbees.com</id>
-      <name>Active Repo for PronghornPipes</name>
-      <url>http://repository-pronghorn.forge.cloudbees.com/snapshot/</url>
-      <layout>default</layout>
-    </repository>	
-
+```xml
+<repository>
+	<releases>
+		<enabled>false</enabled>
+	</releases>
+	<snapshots>
+		<enabled>true</enabled>
+	</snapshots>
+	<id>repository-pronghorn.forge.cloudbees.com</id>
+	<name>Active Repo for PronghornPipes</name>
+	<url>http://repository-pronghorn.forge.cloudbees.com/snapshot/</url>
+	<layout>default</layout>
+</repository>	
+```
 ------------------------------------------
 
 For more technical details please check out the Specification.md file.
