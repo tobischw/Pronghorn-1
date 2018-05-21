@@ -17,8 +17,8 @@ Below is a recorded live demo of an application written using Pronghorn that qui
 
 **Every Pronghorn project** receives an automatically generated, live telemetry page such as the one featured below.
 
-![Decoding JPGs GIF](./static/DecodingJPGS.gif "Decoding JPGs")
-![Encoding JPGs GIF](./static/EncodingJPGs.gif "Encoding JPGs")
+![Decoding JPGs GIF](./static/decoding-jpgs.gif "Decoding JPGs")
+![Encoding JPGs GIF](./static/encoding-jpgs.gif "Encoding JPGs")
 
 ## Why Pronghorn?
 **1. Broad compatibility** 
