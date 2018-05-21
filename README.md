@@ -115,7 +115,7 @@ Below is a recorded live demo of an application written using Pronghorn that qui
 For more technical details please check out the Specification.md file.
 Looking for the release jar? This project is under active development.
 
-Please consider getting involved and sponsoring the completion of [Pronghorn](mailto:info@ociweb.com;?subject=Pronghorn%20Sponsor%20Inquiry)
+Please consider getting involved and sponsoring the completion of [Pronghorn](mailto:info@objectcomputing.com;?subject=Pronghorn%20Sponsor%20Inquiry)
 
 
 Nathan Tippy, Principal Software Engineer [OCI](http://objectcomputing.com)  
