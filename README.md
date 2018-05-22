@@ -1,7 +1,7 @@
 Pronghorn  [![Powered by CloudBees](https://www.cloudbees.com/sites/default/files/styles/large/public/Button-Powered-by-CB.png?itok=uMDWINfY)](https://pronghorn.ci.cloudbees.com/)
 =====
 
-Staged event driven single machine embedded micro-framework.
+Pragmatic approach to a staged event driven single machine embedded micro-framework.
 
 * **Garbage free message passing** design eliminates garbage collector stalls providing predictable data rates.  
 * **Lock free non-blocking message passing** enables cores to make continuous progress at all times.  
