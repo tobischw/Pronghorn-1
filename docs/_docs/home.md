@@ -12,10 +12,10 @@ To get started, please visit the [Quick Start guide](../quick-start-guide).
 
 ## Demo
 Below is recorded live footage of the telemetry of a Pronghorn project that encodes and decodes JPGs as demonstrated
-[here](/docs/jpg-raster).
+[here](/Pronghorn/docs/jpg-raster).
 
-![Decoding JPGs GIF](Pronghorn/assets/gifs/decoding-jpgs-1.gif "Decoding JPGs")
-![Encoding JPGs GIF](Pronghorn/assets/gifs/encoding-jpgs-1.gif "Encoding JPGs")
+![Decoding JPGs GIF](/Pronghorn/assets/gifs/decoding-jpgs-1.gif "Decoding JPGs")
+![Encoding JPGs GIF](/Pronghorn/assets/gifs/encoding-jpgs-1.gif "Encoding JPGs")
 
 ## Overview
 1. [What is Pronghorn?](#what-is-pronghorn)

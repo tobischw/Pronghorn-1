@@ -39,7 +39,7 @@ We use PHAST, a derivative of FAST, to define our messages. Create a new XML fil
 **3. Create a basic unit test**
 
 You do not have to manually generate the schema java file. Once your test runs, it will fail but output the required Java file in the console that you then paste into your `SchemaNAME.java` located in `main/java/SchemaNAME.java`.
-See the example below or [generate a PronghornRanch project](../quick-start-started).
+See the example below or [generate a PronghornRanch project](../quick-getting-started).
 
 
 ***Example Schema Test***
@@ -66,7 +66,7 @@ public class SchemaTest {
 
 **4. Use your Schema**
 
-Your schema is now ready for use. You can now define pipes using your schema. See [Building Custom Stages](https://github.com/objectcomputing/Pronghorn/wiki/Building-Custom-Stages).
+Your schema is now ready for use. You can now define pipes using your schema. See [Building Custom Stages](../stages/).
 
 ## Supported Types
 **Note:** PHAST does not support all types specified in FAST 1.0.
