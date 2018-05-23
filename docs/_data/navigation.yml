@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Documentation"
-    url: ../docs/home/
+    url: /docs/home/
   - title: "Catalog"
-    url: ../catalog/home/
+    url: /catalog/home/
 
 # catalog links
 catalog:
