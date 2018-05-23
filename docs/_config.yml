@@ -15,7 +15,7 @@ title                    : "Pronghorn"
 title_separator          : "-"
 name                     : &name "Nathan Tippy" # &name is a YAML anchor which can be *referenced later
 description              : &description "Website for Pronghorn, a staged event driven single machine embedded micro-framework written in Java, designed to be garbage-free, have a small memory footprint, and be as performant as possible. "
-url                      : https://objectcomputing.github.io/pronghorn # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://objectcomputing.github.io/Pronghorn # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "objectcomputing/pronghorn"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
