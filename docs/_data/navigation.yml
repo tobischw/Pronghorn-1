@@ -1,0 +1,52 @@
+# main links
+main:
+  - title: "Documentation"
+    url: docs/home/
+  - title: "Catalog"
+    url: catalog/home/
+
+# catalog links
+catalog:
+  - title: Overview
+    children:
+      - title: "Catalog"
+        url: /catalog/home
+      - title: "Formatting Guide"
+        url: /catalog/format
+  - title: Catalog
+    children:
+      - title: "Schemas"
+        url: /catalog/list-schemas
+      - title: "Stages"
+        url: /catalog/list-stages
+
+# documentation links
+docs:
+  - title: Overview
+    children:
+      - title: "Home"
+        url: /docs/home/
+      - title: "Benchmarks"
+        url: /docs/benchmarks/
+      - title: "FAQ"
+        url: /docs/faq/
+  - title: Getting Started
+    children:
+      - title: "Quick Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Defining Schemas"
+        url: /docs/schemas/
+      - title: "Building Stages"
+        url: /docs/stages/
+      - title: "Hi vs Low APIs"
+        url: /docs/hi-vs-low/
+  - title: Helpers
+    children:
+      - title: "Appendables"
+        url: /docs/appendables/
+      - title: "Bloom Filter"
+        url: /docs/bloom-filter/
+  - title: Projects
+    children:
+      - title: "JPG-Raster"
+        url: /docs/jpg-raster
