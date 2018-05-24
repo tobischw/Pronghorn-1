@@ -87,6 +87,8 @@ Fine-tuning this rate can vastly improve performance and/or its ability to handl
 
 Shutting down your stage is another important task to do in your `run()` method. Once your processing has finished, you need to let Pronghorn know that work is done and that `run()` should not be executed again. You do this using the `requestShutdown()` method. Do **not** call `shutdown()`.
 
+<strong>Important:</strong> It is important that the <code>outputPublish</code> needs to occur before any of the inputs release.
+
 ### Producers
 **Producers** are the start of your graph and are responsible for providing data to the rest of the stages. You can have multiple producers on the same graph for different subsets of your graph.
 
