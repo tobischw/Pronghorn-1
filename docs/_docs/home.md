@@ -17,12 +17,6 @@ Below is recorded live footage of the telemetry of a Pronghorn project that enco
 <img style="width:250px;" src="/Pronghorn/assets/gifs/decoding-jpgs-1.gif" />
 <img style="width:250px;" src="/Pronghorn/assets/gifs/encoding-jpgs-1.gif" />
 
-## Overview
-1. [What is Pronghorn?](#what-is-pronghorn)
-2. [Who is Pronghorn for?](#who-is-pronghorn-for)
-3. [What are the benefits of Pronghorn over similar frameworks?](#what-are-the-benefits-of-pronghorn-over-similar-frameworks)
-4. [What is the expected usage?](#what-is-the-expected-usage)
-
 ## What is Pronghorn?
 Pronghorn is a pragmatic approach to an actor based framework. It is a staged event driven single machine embedded micro-framework written in Java, designed to be garbage-free, have a small memory footprint, and be as performant as possible.
 
