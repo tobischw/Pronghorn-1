@@ -49,9 +49,8 @@ Additionally, you can use the `-q` option to specify the output JPG file quality
 ```
 pictures/*.jpg             // all JPGs in pictures/
 pictures/cat*.jpg          // all JPGs in pictures/ beginning with cat
-picutres/cat?.jpg          // all JPGs in pictures/ beginning with cat followed by exactly one more character
+pictures/cat?.jpg          // all JPGs in pictures/ beginning with cat followed by exactly one more character
 pictures/*.jp{e,}g         // all JPGs in pictures/ ending in .jpg or .jpeg
-
 ```
 On Windows, globbing syntax can only be used on the filename itself; not a folder along the filepath.
 On Unix, globbing syntax can be used on both files and folders.
