@@ -6,6 +6,7 @@ toc: true
 In order to allow for mostly garbage-free behavior, standard Java string concatenation using the "+" operator is not ideal. Pronghorn has its own Appendables class that allows for garbage-free, single pass creation of text.
 
 The API follows a fluent pattern where every method returns the same Appendable which was passed in.
+It is located in <code>PronghornPipes</code>.
 
 ### Examples
 

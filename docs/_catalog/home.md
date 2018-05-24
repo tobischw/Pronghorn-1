@@ -7,6 +7,4 @@ The catalog attempts to summarize all publicly available Pronghorn schemas and s
 
 Please see the [Formatting Guide](/Pronghorn/catalog/format) on how to add your own schema or stage.
 
-<a href="https://objectcomputing.github.io/Pronghorn/catalog/list-schemas" class="btn btn--primary">View Schemas</a>
-
-<a href="https://objectcomputing.github.io/Pronghorn/catalog/list-stages" class="btn btn--primary">View Stages</a>
+<a href="https://objectcomputing.github.io/Pronghorn/catalog/list-schemas" class="btn btn--success">View Schemas</a> <a href="https://objectcomputing.github.io/Pronghorn/catalog/list-stages" class="btn btn--success">View Stages</a>
