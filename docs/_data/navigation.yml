@@ -10,7 +10,7 @@ catalog:
   - title: Overview
     children:
       - title: "Catalog"
-        url: /catalog/home
+        url: /catalog/home/
       - title: "Formatting Guide"
         url: /catalog/format
   - title: Catalog

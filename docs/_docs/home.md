@@ -14,8 +14,8 @@ To get started, please visit the [Quick Start guide](../quick-start-guide).
 Below is recorded live footage of the telemetry of a Pronghorn project that encodes and decodes JPGs as demonstrated
 [here](/Pronghorn/docs/jpg-raster).
 
-![Decoding JPGs GIF](/Pronghorn/assets/gifs/decoding-jpgs-1.gif "Decoding JPGs")
-![Encoding JPGs GIF](/Pronghorn/assets/gifs/encoding-jpgs-1.gif "Encoding JPGs")
+<img style="width:250px;" src="/Pronghorn/assets/gifs/decoding-jpgs-1.gif" />
+<img style="width:250px;" src="/Pronghorn/assets/gifs/encoding-jpgs-1.gif" />
 
 ## Overview
 1. [What is Pronghorn?](#what-is-pronghorn)
