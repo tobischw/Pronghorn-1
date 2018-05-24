@@ -7,7 +7,7 @@ toc: true
 
 In graph theory, **stages** are better known as vertices or nodes, while **pipes** are known as edges or lines. These concepts are an integral part in the [Actor model](https://en.wikipedia.org/wiki/Actor_model). As an actor framework, Pronghorn has **stages** that can receive messages, make local decisions, process data, and respond to messages with new messages. Messages are passed through **pipes**, which allow for data to be shared between stages.
 
-Thus, every stage can have an input and output pipe. The `PronghornStage` class is an abstract class that provides a protocol for creating custom stages. Please follow the guidelines below for writing correct Pronghorn code.
+Every stage is defined with a fixed number of inputs and/or outputs. The `PronghornStage` class is an abstract class that provides a protocol for creating custom stages. Please follow the guidelines below for writing correct Pronghorn code.
 
 ## Create your first Stage
 Add a new Java class to your existing Pronghorn project (or [create a new project](../quick-start-guide/)). If you prefer, create a new package in your project called "Stages" and place it there. Use the code below to help you get started:
@@ -16,6 +16,7 @@ Add a new Java class to your existing Pronghorn project (or [create a new projec
 package com.ociweb.stages;
 
 import com.ociweb.pronghorn.pipe.Pipe;
+import com.ociweb.pronghorn.pipe.RawDataSchema;
 import com.ociweb.pronghorn.pipe.RawDataSchema;
 import com.ociweb.pronghorn.stage.PronghornStage;
 import com.ociweb.pronghorn.stage.scheduling.GraphManager;
@@ -68,7 +69,7 @@ Depending on the functionality of your stage, you may need to change ```RawDataS
 
 * The constructor should be responsible for saving references to your pipes and defining [notas](#notas).
 
-Every Pronghorn stage requires you to set the GraphManager. You are not, however, required to have output or input pipes - "Dangling pipes" are supported. If you choose to do so, `super()` will have to look similar to this:
+Every Pronghorn stage requires you to set the GraphManager. You are not, however, required to have output or input pipes. If you choose to do so, `super()` will have to look similar to this:
 ```java
 super(gm, NONE, NONE);
 ```
