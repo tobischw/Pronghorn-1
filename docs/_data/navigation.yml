@@ -30,6 +30,8 @@ docs:
         url: /docs/benchmarks/
       - title: "FAQ"
         url: /docs/faq/
+      - title: "Features"
+        url: /docs/features/
   - title: Getting Started
     children:
       - title: "Quick Start Guide"

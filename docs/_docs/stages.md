@@ -10,7 +10,7 @@ In graph theory, **stages** are better known as vertices or nodes, while **pipes
 Thus, every stage can have an input and output pipe. The `PronghornStage` class is an abstract class that provides a protocol for creating custom stages. Please follow the guidelines below for writing correct Pronghorn code.
 
 ## Create your first Stage
-Add a new Java class to your existing Pronghorn project (or [create a new project](https://github.com/objectcomputing/Pronghorn/wiki/getting-started)). If you prefer, create a new package in your project called "Stages" and place it there. Use the code below to help you get started:
+Add a new Java class to your existing Pronghorn project (or [create a new project](../quick-start-guide/)). If you prefer, create a new package in your project called "Stages" and place it there. Use the code below to help you get started:
 
 ```java
 package com.ociweb.stages;
@@ -64,7 +64,7 @@ public class ExampleStage extends PronghornStage {
 
 }
 ```
-Depending on the functionality of your stage, you may need to change ```RawDataSchema``` to the schema that your stage will be processing. More on this can be found on the [Schema](https://github.com/objectcomputing/Pronghorn/wiki/adding-custom-schemas) page.
+Depending on the functionality of your stage, you may need to change ```RawDataSchema``` to the schema that your stage will be processing. More on this can be found on the [Schema](../schemas/) page.
 
 * The constructor should be responsible for saving references to your pipes and defining [notas](#notas).
 
