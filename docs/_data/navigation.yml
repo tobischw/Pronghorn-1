@@ -54,3 +54,5 @@ docs:
     children:
       - title: "JPG-Raster"
         url: /docs/jpg-raster
+      - title: "Web Cookbook"
+        url: /docs/web-cookbook
