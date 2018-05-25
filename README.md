@@ -10,7 +10,7 @@ Pragmatic approach to a staged event driven single machine embedded micro-framew
 * Smart thread scheduling
 
 ## Documentation
-Please refer to the [wiki](../../wiki) for documentation, how to get started, and examples. The JavaDocs are incomplete but available.
+Please refer to the [website](https://objectcomputing.github.io/Pronghorn/docs/home/) for documentation, how to get started, and examples. The JavaDocs are incomplete but available.
 
 ## Demo
 Below is a recorded live demo of an application written using Pronghorn that quickly encodes and decodes JPG to raster (such as BMP) and vice versa.

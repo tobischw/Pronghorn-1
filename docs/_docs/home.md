@@ -10,7 +10,7 @@ Welcome to the Pronghorn documentation.
 
 To get started, please visit the [Quick Start guide](../quick-start-guide).
 
-## Demo
+## Demo 
 Below is recorded live footage of the telemetry of a Pronghorn project that encodes and decodes JPGs as demonstrated
 [here](/Pronghorn/docs/jpg-raster).
 

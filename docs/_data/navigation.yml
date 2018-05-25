@@ -48,6 +48,8 @@ docs:
         url: /docs/appendables/
       - title: "Bloom Filter"
         url: /docs/bloom-filter/
+      - title: "Trie Parser"
+        url: /docs/trie-parser/
   - title: Projects
     children:
       - title: "JPG-Raster"
