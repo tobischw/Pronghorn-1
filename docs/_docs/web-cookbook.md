@@ -5,7 +5,7 @@ toc: true
 ---
 ## What is it?
 The web cookbook demonstrates how to perform REST calls, create proxy requests, utilize blocking calls against databases (H2 in this project), and
-serve files from disk and the resource folder
+serve files from disk and the resource folder.
 
 ## What do I need?
 * Java 8
@@ -21,5 +21,7 @@ mvn install
 ```
 
 This will install all the required dependencies.
-You can then run the cookbook. Use the "files" or "-f" arguments to specify a folder where your web files are located.
-By default, it uses the www folder in your HOME environment folder.
+You can then run the cookbook.
+
+Use the "files" or "-f" arguments to specify a folder where your web files are located.
+By default, it uses the `www` folder in your `HOME` environment folder.
