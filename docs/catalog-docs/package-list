@@ -19,8 +19,6 @@ com.ociweb.pronghorn.stage.file.schema
 com.ociweb.pronghorn.stage.filter
 com.ociweb.pronghorn.stage.math
 com.ociweb.pronghorn.stage.monitor
-com.ociweb.pronghorn.stage.network
 com.ociweb.pronghorn.stage.phast
 com.ociweb.pronghorn.stage.route
 com.ociweb.pronghorn.stage.stream
-com.ociweb.pronghorn.stage.test
