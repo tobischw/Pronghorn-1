@@ -1,4 +1,7 @@
 com.ociweb
+com.ociweb.gl.impl
+com.ociweb.gl.impl.schema
+com.ociweb.gl.impl.stage
 com.ociweb.jpgRaster
 com.ociweb.jpgRaster.j2r
 com.ociweb.jpgRaster.r2j
